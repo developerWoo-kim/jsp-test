@@ -1,0 +1,10 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: jsp-test
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
